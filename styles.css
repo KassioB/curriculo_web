@@ -1,0 +1,149 @@
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #e4f2ff;
+        }
+
+        .container {
+            background-color: #fff;
+            width: 80%;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 32px rgba(238, 234, 234, 0.667), 0 1.5px 8px #23294699;
+            border-radius: 14px;
+            border: 1.5px solid #ffffff;
+            transition: background 0.4s, box-shadow 0.4s;
+        }
+
+        .cabeçalho {
+            text-align: center;
+        }
+
+        .informacoes {
+            justify-items: start;
+            align-items: center;
+            text-align: left;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        h2 {
+            color: #34495e;
+            border-bottom: 2.5px solid #ccc;
+            padding-bottom: 2px;
+            text-transform: uppercase;
+            font-size: 17px;
+        }
+
+        h3 {
+            color: #34495e;
+            font-size: 16px;
+            margin-bottom: -15px;
+        }
+
+        p,
+        li,
+        a {
+            margin-top: -2px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #143c57;
+        }
+
+        button {
+            background: linear-gradient(90deg, #6fa4f4 0%, #2980b9 100%);
+            color: #f7f7ff;
+            padding: 10px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 2px;
+            border: 1.5px solid #6fa4f4;
+            box-shadow: 0 5px 10px #0002;
+            transition: background 0.3s, color 0.3s, border 0.3s;
+        }
+
+        button:hover {
+            background: linear-gradient(90deg, #2980b9 0%, #6fa4f4 100%);
+            color: #fff;
+            border: 1.5px solid #297fb99a;
+        }
+
+        .rodapé {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+
+        /*tema escuro */
+
+        .darkmode {
+            background: linear-gradient(135deg, #0c0c1b 0%, #232946 100%);
+            color: #e0e6f7;
+            transition: background 0.4s, color 0.4s;
+        }
+
+
+        .darkmode .container {
+            background-color: #2a3154;
+            box-shadow: 0 4px 32px #000a, 0 1.5px 8px #23294699;
+            border-radius: 14px;
+            border: 1.5px solid #2a2d3e;
+            transition: background 0.4s, box-shadow 0.4s;
+        }
+
+
+        .darkmode h1,
+        .darkmode h2,
+        .darkmode h3 {
+            color: #b8bfff;
+            border-color: #393e5c;
+            text-shadow: 0 2px 8px #0004;
+        }
+
+
+        .darkmode a {
+            color: #a6baff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .darkmode a:hover {
+            color: #f7cfff;
+        }
+
+        .darkmode button {
+            background: linear-gradient(90deg, #2d335c 0%, #48456f 100%);
+            color: #f7f7ff;
+            border: 1.5px solid #242949;
+            box-shadow: 0 2px 8px #0002;
+            transition: background 0.3s, color 0.3s, border 0.3s;
+        }
+
+        .darkmode button:hover {
+            background: linear-gradient(90deg, #48456f 0%, #2d335c 100%);
+            color: #fff;
+            border: 1.5px solid #48456f;
+        }
+
+        .escondido {
+            display: none;
+        }
